@@ -11,6 +11,14 @@ const PomodoroTimer = ({
 }) => {
   return (
     <div className="text-center">
+      <div className="mb-6 text-center">
+        <p className="text-gray-600 max-w-md mx-auto text-sm sm:text-base">
+          <strong>Pomodoro Technique:</strong> A productivity method that breaks
+          work into focused 24-minute intervals followed by 5-minute breaks.
+          Helps maintain concentration and reduce mental fatigue.
+        </p>
+      </div>
+
       <h1 className="text-2xl font-bold mb-2">
         {isBreak ? "Break Time!" : "Focus Time"}
       </h1>
